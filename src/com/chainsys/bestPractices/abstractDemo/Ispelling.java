@@ -14,7 +14,7 @@ abstract class Language implements Ispelling{
 	}
 }
 
-class EnglishLanguage implements Ispelling
+class EnglishLanguage extends Language implements Ispelling
 {
 
 	@Override
